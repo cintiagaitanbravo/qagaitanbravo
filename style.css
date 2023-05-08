@@ -1,0 +1,716 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+
+body{
+    background-color: #ffe4c44e;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-content{
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.left-section{
+    grid-column: span 2;
+    height: 100%;
+    background-color: rgba(246, 141, 14, 0.321);
+}
+
+.right-section{
+    grid-column: span 5;
+    background-color:bisque;
+    height: 100%;   
+}
+
+.lef-content{
+    padding: 2rem 3rem;
+}
+.profile{
+    width: 100%;
+    border-bottom: 1px solid #fff;
+
+}
+
+.profile img{
+    margin: 10px 100px;
+    padding: 2px;
+    width: 50%;
+    border-radius: 50%; 
+    border: 2px solid #fff;   
+    object-fit: cover;
+
+    
+}
+
+.name{
+    margin: 5px 95px;
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.595);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;   
+}
+
+.career{
+    margin: 0px 80px;
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.595);
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.contact-info{
+    margin: 50px;
+    
+    color: rgba(0, 0, 0, 0.595);
+    
+}
+
+.main-title{
+    margin: 0 auto;
+    padding: 5px;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;  
+    text-align: left; 
+    color: rgba(0, 0, 0, 0.595); 
+    
+}
+.work_experience{
+    margin: 5px 10px;
+}
+.info_work{
+    list-style-type: disc;
+    font-size: 1rem;
+    margin: 5px;
+}
+
+.skills_section{
+    margin: 5px 20px;
+           
+}
+
+.skill-title{
+    list-style-type: disc;
+}
+
+
+.right-main-content{
+    padding: 4rem 3rem;
+}
+
+.right-title{
+    color: rgba(0, 0, 0, 0.595);
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+    padding-bottom: 1.3rem;
+    position: relative;
+    display: inline-block;
+}
+
+.right-title::after{
+    content:" ";
+    position: absolute;
+    width: 750px;
+    height: 3px;
+    background-color:white;
+    right: -850px;
+    top: 0.6em;
+    transform: translateY(-50%);    
+    display: inline-flex;
+}
+
+.right_title{
+    margin-top: 20px;
+   
+    color: rgba(0, 0, 0, 0.595);
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+    padding-bottom: 1.3rem;
+    position: relative;
+    display: inline-block;
+
+}
+
+.right_title::after{
+    content:" ";
+    position: absolute;
+    width: 700px;
+    height: 3px;
+    background-color:white;
+    right: -725px;
+    top: 0.6em;
+    transform: translateY(-50%);    
+    display: inline-flex;
+    margin-top: 5px;
+}
+
+
+.para{
+    font-size:0.9rem;
+    padding-bottom: 10px;
+}
+
+.sect{
+    padding-bottom: 2rem;
+}
+
+.education{
+    color: rgba(0, 0, 0, 0.595);
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+    padding: 3px 0px;
+}
+
+.curso{
+    list-style-type: disc;
+    font-size: 1rem;
+    margin: 5px;
+}
+
+@media (max-width:1600px) {
+
+      
+body{
+    background-color: #ffe4c44e;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.main-content{
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.left-section{
+    grid-column: span 3;
+    height: 100%;
+    background-color: rgba(246, 141, 14, 0.321);
+}
+
+.right-section{
+    grid-column: span 5;
+    background-color:bisque;
+    height: 100%;   
+}
+
+.lef-content{
+    padding: 2rem 3rem;
+}
+.profile{
+    width: 100%;
+    border-bottom: 1px solid #fff;
+
+}
+
+.profile img{
+    margin: 10px 80px;
+    padding: 2px;
+    width: 50%;
+    border-radius: 50%; 
+    border: 2px solid #fff;   
+    object-fit: cover;
+
+    
+}
+
+.name{
+    margin: 5px 20px;
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.595);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;   
+}
+
+.career{
+    margin: 0px 20px;
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.595);
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.contact-info{
+    margin: 20px 15px;
+    
+    color: rgba(0, 0, 0, 0.595);
+    
+}
+
+.main-title{
+    margin: 0 auto;
+    padding: 5px;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;  
+    text-align: left; 
+    color: rgba(0, 0, 0, 0.595); 
+    
+}
+.work_experience{
+    margin: 5px 10px;
+}
+.info_work{
+    list-style-type: disc;
+    font-size: 1rem;
+    margin: 5px;
+}
+
+.skills_section{
+    margin: 5px 20px;
+           
+}
+
+.skill-title{
+    list-style-type: disc;
+}
+
+
+.right-main-content{
+    padding: 4rem 3rem;
+}
+
+.right-title{
+    color: rgba(0, 0, 0, 0.595);
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+    padding-bottom: 1.3rem;
+    position: relative;
+    display: inline-block;
+}
+
+.right-title::after{
+    content:" ";
+    position: absolute;
+    width: 500px;
+    height: 3px;
+    background-color:white;
+    right: -525px;
+    top: 0.6em;
+    transform: translateY(-50%);    
+    display: inline-flex;
+}
+
+.right_title{
+    margin-top: 20px;
+   
+    color: rgba(0, 0, 0, 0.595);
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+    padding-bottom: 1.3rem;
+    position: relative;
+    display: inline-block;
+
+}
+
+.right_title::after{
+    content:" ";
+    position: absolute;
+    width: 390px;
+    height: 3px;
+    background-color:white;
+    right: -400px;
+    top: 0.6em;
+    transform: translateY(-50%);    
+    display: inline-flex;
+    margin-top: 5px;
+}
+
+
+.para{
+    font-size:0.9rem;
+    padding-bottom: 10px;
+}
+
+.sect{
+    padding-bottom: 2rem;
+}
+
+.education{
+    color: rgba(0, 0, 0, 0.595);
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+    padding: 3px 0px;
+}
+
+.curso{
+    list-style-type: disc;
+    font-size: 1rem;
+    margin: 5px;
+}
+
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1024px){
+
+   
+body{
+    background-color: #ffe4c44e;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.main-content{
+    min-height: 100vh;
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.left-section{
+    grid-column: span 3;
+    height: 100%;
+    background-color: rgba(246, 141, 14, 0.321);
+}
+
+.right-section{
+    grid-column: span 5;
+    background-color:bisque;
+    height: 100%;   
+}
+
+.lef-content{
+    padding: 2rem 3rem;
+}
+.profile{
+    width: 100%;
+    border-bottom: 1px solid #fff;
+
+}
+
+.profile img{
+    margin: 10px 80px;
+    padding: 2px;
+    width: 50%;
+    border-radius: 50%; 
+    border: 2px solid #fff;   
+    object-fit: cover;
+
+    
+}
+
+.name{
+    margin: 5px 20px;
+    font-size: 1.3rem;
+    color: rgba(0, 0, 0, 0.595);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;   
+}
+
+.career{
+    margin: 0px 20px;
+    font-size: 1.1rem;
+    color: rgba(0, 0, 0, 0.595);
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.contact-info{
+    margin: 20px 15px;
+    
+    color: rgba(0, 0, 0, 0.595);
+    
+}
+
+.main-title{
+    margin: 0 auto;
+    padding: 5px;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;  
+    text-align: left; 
+    color: rgba(0, 0, 0, 0.595); 
+    
+}
+.work_experience{
+    margin: 5px 10px;
+}
+.info_work{
+    list-style-type: disc;
+    font-size: 1rem;
+    margin: 5px;
+}
+
+.skills_section{
+    margin: 5px 20px;
+           
+}
+
+.skill-title{
+    list-style-type: disc;
+}
+
+
+.right-main-content{
+    padding: 4rem 3rem;
+}
+
+.right-title{
+    color: rgba(0, 0, 0, 0.595);
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+    padding-bottom: 1.3rem;
+    position: relative;
+    display: inline-block;
+}
+
+.right-title::after{
+    content:" ";
+    position: absolute;
+    width: 300px;
+    height: 3px;
+    background-color:white;
+    right: -325px;
+    top: 0.6em;
+    transform: translateY(-50%);    
+    display: inline-flex;
+}
+
+.right_title{
+    margin-top: 20px;
+   
+    color: rgba(0, 0, 0, 0.595);
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+    padding-bottom: 1.3rem;
+    position: relative;
+    display: inline-block;
+
+}
+
+.right_title::after{
+    content:" ";
+    position: absolute;
+    width: 200px;
+    height: 3px;
+    background-color:white;
+    right: -225px;
+    top: 0.6em;
+    transform: translateY(-50%);    
+    display: inline-flex;
+    margin-top: 5px;
+}
+
+
+.para{
+    font-size:0.9rem;
+    padding-bottom: 10px;
+}
+
+.sect{
+    padding-bottom: 2rem;
+}
+
+.education{
+    color: rgba(0, 0, 0, 0.595);
+    font-size: 1.3rem;
+    letter-spacing: 0.5px;
+    padding: 3px 0px;
+}
+
+.curso{
+    list-style-type: disc;
+    font-size: 1rem;
+    margin: 5px;
+}
+
+
+
+
+
+}
+
+
+@media (max-width:800px){
+    
+    body{
+    background-color: #f08d134e;
+    font-family: 'Poppins', sans-serif;
+    }
+
+    .left-content{
+        margin: 0 auto;
+        max-width: 800px;
+        height: 100%;
+        background-color: rgba(246, 141, 14, 0.321);
+        
+    }    
+
+    .profile{
+        margin: 3px;
+    }
+
+    
+   
+    .main-content{
+        min-height: 100%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+   
+
+    .profile img{
+        margin-top: 25%;
+        margin-left: 25%;
+        width: 50%;
+    }
+
+    .name{
+        margin: 1%;
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.595);
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;   
+    }
+
+    .career{
+        margin:2px;        
+        font-size:15px;
+        color: rgba(0, 0, 0, 0.595);
+       
+    }
+
+    
+    .main-title{
+        margin: 0;
+        font-size: 15px;
+        letter-spacing: 0.5px;  
+        text-align: left; 
+        color: rgba(0, 0, 0, 0.595); 
+        
+    }
+
+    .contact-info{
+        margin: 50px;
+    }
+
+
+    .info{
+        margin: 20px 10px;        
+        color: rgba(0, 0, 0, 0.595);       
+    }
+
+    .work_experience{
+        margin: 50px;
+    }
+
+    .info_work{
+        list-style-type: disc;
+    }
+
+    .skills_section{
+        margin: 50px;
+    }
+
+    .skill-title{
+        list-style-type: disc;
+    }
+
+    .right-title::after{
+        content:" ";
+        position: absolute;
+        width: 375px;
+        height: 3px;
+        background-color:white;
+        right: -400px;
+        top: 0.6em;
+        transform: translateY(-50%);    
+        display: inline-flex;
+    }
+
+    .right_title::after{
+        content:" ";
+        position: absolute;
+        width: 275px;
+        height: 3px;
+        background-color:white;
+        right: -315px;
+        top: 0.6em;
+        transform: translateY(-50%);    
+        display: inline-flex;
+        margin-top: 5px;
+    }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
